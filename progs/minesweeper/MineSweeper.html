@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="css/MineSweeper.css">
+</head>
+
+<body onload="initGame()">
+
+    <header>
+        <h1>MineSweeper</h1>
+        <h2>Blow your Mind</h2>
+    </header>
+    <div>
+        <p class="name"> player's name: <span class="playersName"></span>
+            <button class="namebutton" onclick="yourName()">enter name</button>
+        </p>
+        <p class="time"> the best time is: <span class="bestTime"></span>
+        </p>
+        <p class="time"> courent time is: <span class="currTime"></span>
+        </p>
+    </div>
+
+    <div class="radio">
+        <input type="radio" id="eazy" name="level" onclick="handelSzie(this)" ; value="4" checked="checked" />
+        <label for="size1">eazy(4)</label>
+        <input type="radio" id="hard" name="level" onclick="handelSzie(this)" ; value="8" />
+        <label for="size2">hard(8)</label>
+        <input type="radio" id="extreme" name="level" onclick="handelSzie(this)" ; value="10" />
+        <label for="size3">extreme(10)</label>
+    </div>
+
+    <table border="1">
+        <tbody id="board"></tbody>
+    </table>
+
+
+</body>
+
+<script src="js/MineSweeper.js"></script>
+
+</html>

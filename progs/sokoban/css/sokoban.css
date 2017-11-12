@@ -1,0 +1,102 @@
+h1{
+    font-family: roboto;
+    font-size: 2em;
+    color: #FA0101;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+h2{
+    font-family: roboto;
+    font-size: 2em;
+    color: #FF5E00;
+    margin:0px;
+    text-align: center;
+}
+
+table{
+    border: 7px solid #53385F; 
+    text-align: center;
+    margin: auto;
+}
+
+td{
+    width: 50px;
+    height:50px;
+}
+.time{
+    display:inline-block;
+    font-family: roboto;
+    color: #59C710;
+    margin:5px;
+    float: right;
+    margin-right: 15%;
+}
+
+.currTime{
+    display:inline-block;
+    font-family: roboto;
+    color: #59C710;
+    margin:5px;
+    float: right;
+    margin-right: 15%;
+}
+.steps{
+    display:inline-block;
+    font-family: roboto;
+    color: #59C710;
+    margin:5px;
+    float: left;
+    margin-left: 15%;
+}
+.stepcount{
+    display:inline-block;
+    font-family: roboto;
+    color: #59C710;
+    margin:5px;
+    float: left;
+    margin-left: 15%;    
+}
+
+.box{
+    /* background-color:black;  */
+    background-image:url('../img/box.jpg');
+}
+
+.target{
+    background-image:url('../img/spot.png');
+    /* background-color: blueviolet; */
+}
+
+.wall{
+    /* background-color: brown; */
+    background-image:url('../img/wall.png');
+}
+.gamer{
+    background-image:url('../img/ninja.jpg');
+    /* background-color: yellow; */
+}
+.point{
+    background-image:url('../img/box.jpg');
+    /* background-color: green; */
+}
+.gamerontarget{
+    background-image:url('../img/ninja.jpg');
+    /* background-color: yellow; */
+    outline-color: blueviolet;
+}
+
+img{
+    border:10px solid white ;
+    height: 400px;
+}
+
+button{
+    background-color: yellowgreen;
+    transition: border-radius 1s
+}
+
+button:hover {
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 140, 186, 0.5);

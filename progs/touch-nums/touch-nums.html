@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>touch-nums</title>
+    <link rel="stylesheet" href="C:\Users\glanfidich\Dropbox\CaOct17-ExerciseSubmission\Ido Tirem\touch-nums\css\touch-nums.css">
+</head>
+
+<body onload="moveBalloons()" >
+
+    <header>
+        <h1>touch-nums</h1>
+    </header>
+
+    <div>
+        <input type="radio" id="eazy" name="level" onclick="handelSzie(this)"; value="16" checked="checked" />
+        <label for="gender1">eazy(16)</label>
+        <input type="radio" id="hard" name="level" onclick="handelSzie(this)"; value="25" />
+        <label for="gender2">hard(25)</label>
+        <input type="radio" id="extreme" name="level" onclick="handelSzie(this)"; value="36" />
+        <label for="gender2">extreme(36)</label>
+    </div>
+
+    <div>
+        <input type="radio" id="nurmal" name="nOrR" onclick="handelExtrim(this)"; value="false" checked="checked" />
+        <label for="gender1">normal</label>
+        <input type="radio" id="insaine" name="nOrR" onclick="handelExtrim(this)"; value="true" />
+        <label for="gender2">insaine</label>
+    </div>
+
+
+
+    <table border="1">
+        <tbody id="board"></tbody>
+    </table>
+   
+
+
+</body>
+
+<script src="C:\Users\glanfidich\Dropbox\CaOct17-ExerciseSubmission\Ido Tirem\touch-nums\js\touch-nums.js"></script>
+
+</html>

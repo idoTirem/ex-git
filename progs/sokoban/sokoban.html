@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>sokoban</title>
+    <link rel="stylesheet" href="css/sokoban.css">
+</head>
+
+<body onload="initGame()">
+
+    <header>
+        <h1>sokoban roooools!!!</h1>
+        <h2>let's move!!!</h2>
+    </header>
+    <p class="time"> courent time is: <span class="currTime"></span>
+    </p>
+    <p class="steps"><span class="stepcount"></span>steps</p>
+    <button class="restart" onclick="restart()">restart?</button>
+    <!-- <div>
+        <p class="name"> player's name: <span class="playersName"></span>
+        </p>
+        <p class="time"> the best time is: <span class="bestTime"></span>
+        </p>
+        <p class="time"> courent time is: <span class="currTime"></span>
+        </p>
+    </div> -->
+
+    <!-- <div class="radio">
+        <input type="radio" id="eazy" name="level" onclick="handelSzie(this)" ; value="4" checked="checked" />
+        <label for="size1">eazy(4)</label>
+        <input type="radio" id="hard" name="level" onclick="handelSzie(this)" ; value="8" />
+        <label for="size2">hard(8)</label>
+        <input type="radio" id="extreme" name="level" onclick="handelSzie(this)" ; value="10" />
+        <label for="size3">extreme(10)</label>
+    </div> -->
+
+    <table border="1">
+        <tbody id="board"></tbody>
+    </table>
+
+
+</body>
+
+<script src="js/sokoban.js"></script>
+
+</html>

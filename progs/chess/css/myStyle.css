@@ -1,0 +1,38 @@
+.black {
+    background-color: black;
+    color:white;
+}
+.white {
+    background-color:white;
+    color: darkblue;
+}
+
+.mark {
+    border: 1px solid red;
+}
+
+.gameBoard {
+    font-size:1.4em;
+}
+
+.gameBoard td {
+    width: 30px;
+    height:30px;
+    text-align: center;
+}
+
+.balloon {
+    width:50px;
+    height:100px;
+    border-radius: 50%;
+    position:absolute;
+}
+.balloon1 {
+    background-color: green;
+    left:20px;
+    bottom:0;
+}
+.balloon2 {
+    background-color: purple;
+    left:80px;
+}

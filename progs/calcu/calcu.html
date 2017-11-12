@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <title>calcu</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/calcu.css">
+</head>
+
+<body>
+    <table>
+        <tbody class="calcuTablu">
+
+            <tr>
+                <!-- 1st row =output -->
+                <td colspan="5" class="outPut">
+                    <!-- output -->
+                    <span class="display"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <!-- 2nd row -->
+                <td class="button" onclick="buttonPressd(this)">
+                    mc
+                </td>
+                <td class="button" onclick="butoonPressd(this)">
+                    mr
+                </td>
+                <td class="button" onclick="buttonPressd(this)">
+                    ms
+                </td>
+                <td class="button" onclick="buttonPressd(this)">
+                    m+
+                </td>
+                <td class="button" onclick="buttonPressd(this)">
+                    m-
+                </td>
+            </tr>
+
+            <tr>
+                <!-- 3rd row -->
+                <td>
+                    <!-- del -->
+                    del
+                </td>
+                <td class="button" onclick="buttonPressd(this)">
+                    ce
+                </td>
+                <td class="button" onclick="buttonPressd(this)">
+                    c
+                </td>
+                <td class="button" onclick="buttonPressd(this)">
+                    +/-
+                </td>
+                <td class="button" onclick="buttonPressd(this)">
+                    root
+                </td>
+            </tr>
+
+            <tr>
+                <!-- 4th row -->
+                <td class="button" onclick="digitPrassed(this)">
+                    7
+                </td>
+                <td class="button" onclick="digitPrassed(this)">
+                    8
+                </td>
+                <td class="button" onclick="digitPrassed(this)">
+                    9
+                </td>
+                <td class="button" onclick="operatorPrassed(this)">
+                    /
+                </td>
+                <td class="button" onclick="operatorPrassed(this)">
+                    %
+                </td>
+            </tr>
+
+            <tr>
+                <!-- 5th row -->
+                <td class="button" onclick="digitPrassed(this)">
+                    4
+                </td>
+                <td class="button" onclick="digitPrassed(this)">
+                    5
+                </td>
+                <td class="button" onclick="digitPrassed(this)">
+                    6
+                </td>
+                <td class="button" onclick="operatorPrassed(this)">
+                    *
+                </td>
+                <td class="button" onclick="buttonPressd(this)">
+                    1/x
+                </td>
+            </tr>
+
+            <tr>
+                <!-- 6th row -->
+                <td class="button" onclick="digitPrassed(this)">
+                    1
+                </td>
+                <td class="button" onclick="digitPrassed(this)">
+                    2
+                </td>
+                <td class="button" onclick="digitPrassed(this)">
+                    3
+                </td>
+                <td class="button" onclick="operatorPrassed(this)">
+                    -
+                </td>
+                <td rowspan="2" class="button" onclick="operatorPrassed(this)">
+                    =
+                </td>
+            </tr>
+
+            <tr>
+                <!-- 7th row -->
+                <td colspan="2" class="button" onclick="digitPrassed(this)">
+                    0
+                </td>
+
+                <td class="button" onclick="operatorPrassed(this)">
+                    .
+                </td>
+                <td class="button" onclick="operatorPrassed(this)">
+                    +
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <script src="js/calcu.js"></script>
+</body>
+
+</html>
