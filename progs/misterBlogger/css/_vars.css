@@ -1,0 +1,14 @@
+:root {
+    /* Layout */
+    --container-width: 1063px;
+    --inner-container-width: 900px;
+    /* Fonts */
+    --primary-font: Eurofurenceregular;
+    --secondary-font: Lato;
+    /* Colors */
+    --main-color: #ffffff;
+    --sections-bg: #606060; 
+    --border-butoon-color: #c2c2c2;
+    --hover-color: #58c93a;
+  }
+  

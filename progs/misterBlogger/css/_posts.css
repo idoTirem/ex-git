@@ -1,0 +1,183 @@
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    color: #4f4e4e;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--border-butoon-color);
+}
+
+.posts_container{
+    width: 100%;
+    height: 100%;
+    max-width: 980px;
+    flex-flow: column nowrap;
+    margin: auto;
+}
+.posts_area{
+    width: 100%;
+    height: 100%;
+    max-width: 980px;
+    margin:0 auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.post{
+    margin-top: 80px;
+    display: flex;
+    max-width: 980px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.post_data{
+    width: 100%;
+    max-width: 445px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+}
+
+.post_titel{
+ margin:0; 
+width: 386px;
+/* height: 51px; */
+color: #4f4e4e;
+font-family: var(--secondary-font);
+font-size: 28px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+/* Text style for "Duis aute" */
+letter-spacing: 0.84px;
+}
+
+.post_excerpt{
+    margin: 0;
+width: 445px;
+/* height: 114px; */
+color: #606060;
+font-family: var(--secondary-font);
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.48px;
+}
+.continue_reading{
+    margin: 0;
+}
+.post_data button{
+    
+    width: 186px;
+    /* height: 40px; */
+    color: var(--border-butoon-color);
+    
+    border-radius:28px;
+    border: 2px solid var(--border-butoon-color);
+    cursor:pointer;
+    font-family:var(--secondary-font);
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627; 
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.48px; 
+}
+    .post_data button:hover {
+        color: var(--hover-color);
+        border-color: var(--hover-color);
+}
+    .post_data button:active {
+}
+
+.post_butoon_nav_container{
+    display: flex;
+    border-top: 1px solid var(--border-butoon-color);
+    height: 78px;
+    width: 100%;
+    max-width: 980px;
+    justify-content: space-between;
+    align-items: center;
+}
+.post_butoon_nav_container button span{
+width: 15px;
+height: 7px;
+margin: 0px 5px;
+}
+
+.post_butoon_nav{
+    height: 14px;
+    color: #818181;
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background-color: #ffffff;
+    letter-spacing: 0.9px;
+}
+
+.post_butoon_nav_container button:hover{
+    cursor: pointer;
+    color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+@media (max-width: 970px){
+    .post_data{
+        max-width: 50%;
+    }
+    .post_titel{
+        margin: 10px 10px 0px 10px;
+        font-size: 1em;
+        max-width: 80%;
+        flex-wrap:wrap; 
+    }
+
+    .post_excerpt{
+        margin: 0px 10px ;
+        font-size: 0.7em;
+        max-width: 80%;
+        flex-wrap: wrap;
+    }
+    .post img{
+        height: 50%;
+        width: 50%
+    }
+
+}
+    
+@media (max-width: 680px){
+
+    .post{
+        flex-direction: column;
+    }
+
+    .post_data{
+        max-width: 80%;
+    }
+
+    .post img{
+        max-width:100%;
+        width: 469px; 
+    }
+
+    .post_excerpt{
+        max-width:100%;
+        font-size: 1em;
+        margin-bottom: 10px;
+        margin-right: 0;
+        flex-wrap:wrap; 
+    }
+    .post_titel{
+        font-size: 1.5em;
+        max-width:100%;
+        margin: 30px 0px;
+        flex-wrap: wrap;
+    }
+}
+

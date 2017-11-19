@@ -79,6 +79,21 @@ main > nav {
     align-items: flex-start;
     
 }
+
+li{
+    margin: 15px 0px;
+    list-style: none;
+}
+
+input{
+    /* height: 2em; */
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    /* max-width: 50%; */
+    margin: 15px -20% 15px 0px;
+
+}
 .container {
     width: 165px;
     max-width: 165px;
@@ -140,6 +155,12 @@ main > nav {
     border: 1px solid #eebb55;
     border-radius: 7px;
     background: #ffeebb;
+}
+
+.gameData{
+font-size: 2em;
+font-family: Arial, Helvetica, sans-serif;
+color: darkcyan;
 }
 
    /* Too narrow to support three columns */

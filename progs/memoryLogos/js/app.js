@@ -15,6 +15,7 @@ render(gCards);
 
 function render(cards) {
     var strHtmls = cards.map(function (card) {
+        console.log(card,'card');
         return `
     <section class="container">
         <div class="card" data-card="${card}" onclick="cardClicked(this)">
